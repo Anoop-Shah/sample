@@ -1,4 +1,5 @@
 #!/usr/bin/python
+print("Content-Type: text/plain\n\n")
 import psycopg2
 from config import config
 
@@ -35,5 +36,4 @@ def connect():
 
 
 if __name__ == '__main__':
-    print("Content-Type: text/plain\n\n")
     connect()
