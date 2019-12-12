@@ -35,4 +35,5 @@ def connect():
 
 
 if __name__ == '__main__':
+    print("Content-Type: text/plain\n\n")
     connect()
